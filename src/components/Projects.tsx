@@ -91,7 +91,7 @@ export default function Projects() {
   return (
     <section id="projects" className="relative overflow-hidden bg-ink py-24 sm:py-32">
       <div className="grain absolute inset-0" />
-      <div className="perspective-grid pointer-events-none absolute inset-x-0 top-0 h-[420px] opacity-60" />
+      <div className="perspective-grid pointer-events-none absolute inset-0 opacity-60" />
       <div
         className="pointer-events-none absolute inset-0"
         style={{
