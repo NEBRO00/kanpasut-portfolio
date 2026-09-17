@@ -173,6 +173,11 @@ export const skillGroups = [
     title: { th: 'Tools & Design', en: 'Tools & Design' },
     items: ['Figma', 'Git', 'GitHub'],
   },
+  {
+    number: '04',
+    title: { th: 'Hardware & Automation', en: 'Hardware & Automation' },
+    items: ['Python', 'PLC', 'Sensor', 'SolidWorks', 'PostgreSQL', 'C Language'],
+  },
 ]
 
 // ---- contact / links -------------------------------------------------------
@@ -271,7 +276,7 @@ export const content: Record<Lang, PageCopy> = {
       greeting: "HI, I'M",
       name: 'KANPASUT',
       role: 'Frontend Developer',
-      tagline: 'สร้างเว็บที่ทั้งใช้งานง่ายและรู้สึกมีชีวิต ด้วยรายละเอียดเล็ก ๆ ที่ตั้งใจ',
+      tagline: 'ออกแบบและพัฒนาเว็บอินเทอร์เฟซที่ชัดเจน เข้าถึงง่าย และพร้อมใช้งานในโลกจริง',
       status: 'Open to Work',
       workPreference: 'Hybrid',
       viewProjects: 'View Projects',
@@ -280,7 +285,7 @@ export const content: Record<Lang, PageCopy> = {
     },
     about: {
       heading: 'About Me',
-      body: 'ผมเน หรือ กัญจน์ภาสัตย์ นักพัฒนาเว็บฝั่ง Frontend ที่มีพื้นฐานวิศวกรรมอิเล็กทรอนิกส์ เริ่มต้นจากงานออกแบบ UI/UX ในฐานะฟรีแลนซ์ ก่อนจะลงลึกด้านการเขียนโค้ดอย่างจริงจัง ผมชอบงานที่ต้องคิดทั้งภาพรวมและรายละเอียดเล็ก ๆ ไปพร้อมกัน และเรียนรู้จากการลงมือทำโปรเจกต์จริงเสมอ',
+      body: 'ผมเน หรือ กานต์พศุตม์ แสงทอง นักพัฒนาเว็บฝั่ง Frontend ที่มีพื้นฐานวิศวกรรมอิเล็กทรอนิกส์ เริ่มต้นจากงานออกแบบ UI/UX ในฐานะฟรีแลนซ์ ก่อนจะลงลึกด้านการเขียนโค้ดอย่างจริงจัง ผมชอบงานที่ต้องคิดทั้งภาพรวมและรายละเอียดเล็ก ๆ ไปพร้อมกัน และเรียนรู้จากการลงมือทำโปรเจกต์จริงเสมอ',
       workStatusLabel: 'สถานะการทำงาน',
       locationLabel: 'Location',
       workPrefLabel: 'Work Preference',
@@ -329,7 +334,7 @@ export const content: Record<Lang, PageCopy> = {
       greeting: "HI, I'M",
       name: 'KANPASUT',
       role: 'Frontend Developer',
-      tagline: 'Building interfaces that work cleanly and feel alive — one deliberate detail at a time.',
+      tagline: 'Designing and developing clear, accessible web interfaces built for real-world use.',
       status: 'Open to Work',
       workPreference: 'Hybrid',
       viewProjects: 'View Projects',
