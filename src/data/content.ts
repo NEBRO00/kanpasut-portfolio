@@ -178,7 +178,7 @@ export const projects: Project[] = [
       th: 'ระบบทำงานได้ตามเป้าหมายและช่วยประยุกต์ใช้เทคโนโลยี PLC ในการยกระดับคุณภาพการผลิตของเครื่อง Air Leak Test',
       en: 'The system met project goals and demonstrated the practical value of PLC-based automation for improving production quality.',
     },
-    liveUrl: '#',
+    liveUrl: '/Presentation.pdf',
     githubUrl: '#',
     media: [
       { src: '/projects/air-leak-system-1.jpg', fallbackColor: '#5B8DEF' },
