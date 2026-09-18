@@ -37,7 +37,7 @@ export default function Loader() {
           />
 
           <p className="gradient-text relative z-10 max-w-xs text-balance text-center font-kanit text-2xl font-bold leading-snug sm:text-3xl">
-            ยินดีต้อนรับเข้าสู่ Resume ของ Kanpasut
+            รอสักครู่นะคร้าบ กำลังจัด Resume ให้ค้าบ
           </p>
 
           {/* running character — the source video's light background is keyed
