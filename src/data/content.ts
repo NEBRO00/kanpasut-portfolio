@@ -153,15 +153,43 @@ export const projects: Project[] = [
     liveUrl: '#',
     githubUrl: 'https://github.com/NEBRO00/Delta-Arm-AI-Edge',
     media: [
-      { src: '/projects/Delta_Arm-1.jpg', fallbackColor: '#8B7CF6' },
-      { src: '/projects/Delta_Arm-2.jpg', fallbackColor: '#5B8DEF' },
-      { src: '/projects/Delta_Arm-3.jpg', fallbackColor: '#F2748C' },
-      { src: '/projects/Delta_Arm-4.jpg', fallbackColor: '#F2A25C' },
+      { src: '/projects/delta-arm-1.jpg', fallbackColor: '#8B7CF6' },
+      { src: '/projects/delta-arm-2.jpg', fallbackColor: '#5B8DEF' },
+      { src: '/projects/delta-arm-3.jpg', fallbackColor: '#F2748C' },
+      { src: '/projects/delta-arm-4.jpg', fallbackColor: '#F2A25C' },
+    ],
+  },
+  {
+    id: 'automatic-air-leak-testing-system',
+    order: '05',
+    type: { th: 'โปรเจกต์วิจัย', en: 'Research Project' },
+    title: { th: 'โครงการสหกิจศึกษา: Automatic Air Leak Testing System Using PLC', en: 'Co-op Project: Automatic Air Leak Testing System Using PLC' },
+    description: {
+      th: 'พัฒนาระบบทดสอบการรั่วของอากาศแบบอัตโนมัติสำหรับเครื่อง Air Leak Test โดยใช้ PLC เพื่อช่วยลดความผิดพลาดจากการตรวจสอบแบบ manual และเพิ่มความแม่นยำในการผลิต',
+      en: 'Developed an automatic air leak testing system for the Air Leak Test machine using PLC to minimize manual inspection errors and improve production accuracy.',
+    },
+    role: { th: 'ผู้ช่วยวิศวกรฝ่ายผลิตและนักพัฒนาระบบอัตโนมัติ รับผิดชอบด้าน PLC, การทดสอบระบบ และการดูแลเครื่องจักรในโรงงาน', en: 'Production engineer assistant and automation developer involved in PLC programming, system testing, and on-site factory machine support' },
+    technologies: ['PLC', 'Automation', 'Air Leak Test', 'Factory Engineering', 'System Testing'],
+    challenge: {
+      th: 'ต้องปรับปรุงกระบวนการทดสอบให้มีความแม่นยำและรวดเร็วขึ้น พร้อมทั้งลดความผิดพลาดจากการตรวจสอบด้วยมือในสภาพแวดล้อมโรงงานจริง',
+      en: 'Improving the testing process to be faster and more accurate while reducing errors caused by manual inspection in a real factory environment.',
+    },
+    result: {
+      th: 'ระบบทำงานได้ตามเป้าหมายและช่วยประยุกต์ใช้เทคโนโลยี PLC ในการยกระดับคุณภาพการผลิตของเครื่อง Air Leak Test',
+      en: 'The system met project goals and demonstrated the practical value of PLC-based automation for improving production quality.',
+    },
+    liveUrl: '#',
+    githubUrl: '#',
+    media: [
+      { src: '/projects/air-leak-system-1.jpg', fallbackColor: '#5B8DEF' },
+      { src: '/projects/air-leak-system-2.jpg', fallbackColor: '#8B7CF6' },
+      { src: '/projects/air-leak-system-3.jpg', fallbackColor: '#F2A25C' },
+      { src: '/projects/air-leak-system-4.jpg', fallbackColor: '#F2748C' },
     ],
   },
   {
     id: 'embedded-system-mini-project',
-    order: '05',
+    order: '06',
     type: { th: 'โปรเจกต์รายวิชา', en: 'Mini Project' },
     title: { th: 'โปรเจกต์รายวิชา Embedded System', en: 'Embedded System Mini Project' },
     description: {
@@ -181,10 +209,10 @@ export const projects: Project[] = [
     liveUrl: '#',
     githubUrl: 'https://github.com/NEBRO00/Embedded-System-Mini-Project',
     media: [
-      { src: '/projects/Embedded-1.jpg', fallbackColor: '#5B8DEF' },
-      { src: '/projects/Embedded-2.jpg', fallbackColor: '#8B7CF6' },
-      { src: '/projects/Embedded-3.jpg', fallbackColor: '#F2A25C' },
-      { src: '/projects/Embedded-4.jpg', fallbackColor: '#F2748C' },
+      { src: '/projects/embedded-1.jpg', fallbackColor: '#5B8DEF' },
+      { src: '/projects/embedded-2.jpg', fallbackColor: '#8B7CF6' },
+      { src: '/projects/embedded-3.jpg', fallbackColor: '#F2A25C' },
+      { src: '/projects/embedded-4.jpg', fallbackColor: '#F2748C' },
     ],
   },
 ]
